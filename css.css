@@ -1,3 +1,83 @@
-body{
+body {
     background-color: black;
+    color: #d400ff;
 }
+
+/* h1 means a level one header, along with h2,3,4,ect. */
+
+h1 {                    
+  color: #d400ff;
+  text-shadow: 0 0 10px #003cff, 0 0 20px #0066ff, 0 0 30px #0064e6;
+}
+
+p {
+  font-size: 25px;
+  color: #d400ff;
+  text-shadow: 0 0 10px #003cff, 0 0 20px #0066ff, 0 0 30px #0064e6;
+
+  }
+
+p:hover.link {
+  color: #1eff00;
+  text-shadow: 0 0 10px #1eff00, 0 0 20px #37ff00, 0 0 30px #0ce600, 0 0 40px #11ee01;
+}
+
+/* p means text, afor some reason? */
+
+a {
+    color: #d400ff;
+    font-size: small;
+    background-color: black;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-color: #4400ff;
+    border-style: solid;
+    position: relative;
+    width: 24%;
+
+}
+
+a:hover {
+  color:#1eff00;
+  border: #1eff00;
+  border-style: solid;
+  text-shadow: 0 0 10px #1eff00, 0 0 20px #37ff00, 0 0 30px #0ce600, 0 0 40px #11ee01;
+
+}
+
+/* a means anchor, this is all the hyperlinks, so game links essentially*/
+
+  .alert {
+    padding: 20px;
+      background-color: #000000;
+      color: rgb(9, 255, 0);
+      margin-bottom: 15px;
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 18px;
+      border: #1eff00;
+      border-style: solid;
+  }
+
+/* this is the alert thing, it's the popup stuff*/
+
+/* The close button */
+  .closebtn {
+    margin-left: 15px;
+    color: rgb(0, 255, 21);
+    font-weight: bold;
+    float: right;
+    font-size: 22px;
+    line-height: 15px;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+
+  /* When moving the mouse over the close button */
+  .closebtn:hover {
+    color: rgb(255, 255, 255);
+  }
+
